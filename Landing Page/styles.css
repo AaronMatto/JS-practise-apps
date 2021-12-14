@@ -1,0 +1,371 @@
+body {
+	background-color: rgb(160, 0, 0);
+}
+
+.content-wrap {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border:0;
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	display: inline-block;
+	background-color: rgba(255, 121, 0, 0.8);
+	margin: 0;
+	z-index: 9;
+	right: 2px;
+}
+
+.links-container {
+	width: 40%;
+	position: absolute;
+	right: 30px;
+	bottom: 0px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 25px;
+}
+
+.links-container-item {
+	text-decoration: none;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 400;
+	color: gold;
+	text-shadow: 4px 4px 4px black, 4px 4px 4px black;
+	position: relative;
+	bottom: 10px;
+	z-index: 15;
+}
+
+.title {
+	font-family: 'Ranga', cursive;
+	font-size: 65px;
+	font-weight: 900;
+	position: relative;
+	bottom: 41px;
+	left: 20px;
+	text-shadow: 2px 2px 2px yellow, 4px 4px 1px black;
+	z-index: 3;
+}
+
+#fire {
+	text-shadow: 5px 5px 1px black, -2px -2px 1px black, 6px 6px 1px gold;
+}
+
+.header-wrap {
+	margin-bottom: 150px;
+}
+
+#image {
+	display: inline-block;
+	width: 380px;
+	height: 410px;
+	background-image: url("Burrito Icon.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15%;
+	position: relative;
+	bottom: 20px;
+	display: inline-block;
+	z-index: -1;
+}
+
+.grid-container-user {
+	margin: auto;
+	width: 60%;
+	height: 410px;
+	position: relative;
+	bottom: 340px;
+	display: inline-grid;
+	grid-template-rows: auto auto auto;
+	grid-auto-columns: auto auto auto;
+	padding: 5px;
+	margin-left: 30px;
+	grid-gap: 10px;
+}
+
+.grid-container-user > div {
+	text-align: center;
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	z-index: 0;
+}
+
+#subtitle {
+	font-size: 40px;
+	font-weight: 800;
+	text-shadow: 1px 1px 1px yellow;
+}
+
+#email {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	height: 23px;
+	margin-top: 0px;
+	padding: 5px;
+	border: 4px solid black;
+}
+
+#start-button {
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	margin-top: 10px;
+	width: 35%;
+	background-color: rgb(237, 0, 130);
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 1%;
+	height: 40px;
+	padding:5px;
+	line-height: 10px;
+}
+
+#start-button:hover {
+	cursor: pointer;
+	background-color: rgb(0,0,0);
+	color: white;
+	border: 4px solid black;
+}
+
+.item1 {
+	font-family: 'Poppins', sans-serif;
+	grid-column: 1/4;
+	text-align: center;
+}
+
+.item2 {
+grid-column: 2/3;
+}
+
+.features-container {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 900;
+	align-items: space-between;
+	position: relative;
+	bottom: 300px;
+}
+
+#ingredients-title {
+	display: inline;
+	position: relative;
+	top: 5px;
+	font-family: 'Playfair Display', serif;
+	font-size: 45px;
+}
+
+.feature-ingredient-caption {
+	position: absolute;
+	width: 80%;
+	height: auto;
+	margin-left: 200px;
+	margin-right: auto;
+	top: 30px;
+	font-size: 19px;
+}
+
+.pepper-icon {
+	font-size: 7em;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	color: rgb(0, 138, 34);
+	text-shadow: 3px 3px 1px rgb(240, 103, 2), -3px -3px 1px black, 7px 7px 1px black;
+}
+
+
+#delivery-title {
+	font-family: 'Faster One', cursive;
+	display: inline;
+	position: relative;
+	font-size: 45px;
+	font-weight: 300;
+}
+
+.feature-delivery-caption {
+	position: absolute;
+	top: 250px;
+	width: 80%;
+	height: auto;
+	margin-left: 200px;
+	margin-right: auto;
+	font-size: 19px;
+}
+
+.bicycle-icon {
+	font-size: 7em;
+	position: relative;
+	left: 10px;
+	top: 250px;
+	color: rgb(237, 157, 36);
+	text-shadow: -2px -4px 1px black, 5px 5px 1px black;
+}
+
+
+#community-title {
+	font-family: 'Playfair Display', serif;
+	display: inline;
+	position: relative;
+	font-size: 45px;
+}
+
+.feature-community-caption {
+	position: absolute;
+	top: 450px;
+	width: 80%;
+	height: auto;
+	margin-left: 200px;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+.community-icon {
+	font-size: 7em;
+	position: relative;
+	left: 10px;
+	top: 360px;
+	color: rgb(10, 186, 255);
+	text-shadow: -2px -2px 1px black, 7px 7px 1px black;
+}
+
+.iframe {
+	margin-left: auto;
+	margin-right: auto;
+	height: 354px;
+	width: 630px;
+	position: relative;
+	bottom: 270px;
+	display: block;
+}
+
+.price-container {
+	display: grid;
+	position: relative;
+	bottom: 150px;
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-row-gap: 15px;
+	grid-column-gap: 19px;
+}
+
+.price-item1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	height: 120px;
+	font-size: 40px;
+	font-weight: 900;
+	color: rgb(214, 210, 210);
+	text-shadow: 4px 4px 1px black, -3px -3px black;
+	background-color: rgb(120, 0, 0);
+	border: 4px solid black;
+}
+
+.price-item2,.price-item3 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	height: 100px;
+	font-size: 50px;
+	color: rgb(214, 210, 210);
+	text-shadow: 4px 4px 1px black, -3px -3px 1px black;
+	background-color: rgb(120, 0, 0);
+	border: solid 4px black;
+	padding-top: 20px;
+}
+
+
+.price-item4,.price-item5,.price-item6 {
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	height: 60px;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px black;
+	color: black;
+}
+
+.price-item7,.price-item8,.price-item9 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 19px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.price-item10,.price-item11,.price-item12 {
+	text-align: center;
+	height: 50px;
+}
+
+.button2 {
+	position: relative;
+	top: 22px;
+	height: 40px;
+	width: 30%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	background: rgb(237, 0, 130);
+	border: 3px solid black;
+}
+
+.button2:hover {
+	cursor: pointer;
+	background: black;
+	color: white;
+	border: 3px solid black;
+}
+
+.footer-container {
+	height: 110px;
+	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(120, 0, 0);
+	text-align: right;
+	padding: 0;
+	position: relative;
+	margin-bottom: 0;
+	bottom: -25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.footer-container-item {
+	margin-right: 25px;
+	margin-top: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 19px;
+	color: rgb(214, 210, 210);
+
+}
+
+.footer-container-item:hover {
+	cursor: pointer;
+}
+
+#copyright {
+	position: absolute;
+	top: 53px;
+	right: 17px;
+	font-size: 15px;
+	color: rgb(214, 210, 210);
+	font-family: 'Nunito', serif;
+}
