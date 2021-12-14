@@ -1,1 +1,9 @@
+This is a basic memory game and the final app I made myself before enrolling on a coding bootcamp. It requires the user to flip a card and then flip another; if
+they match then the cards stay flipped. The goal is to flip all cards in as few clicks as possible (of course, there is a significant element of luck to this).
 
+This was an exciting app to make as it naturally involved coming up with a basic shuffle algorithm for the cards and constructing a way for the computer to 
+recognise if two cards flipped consecutively were the same. The goal was not to have a great design here as by now I felt much more confident with CSS; the main
+aim was to tackle more challenging JS.
+
+The app does work however there are some obvious improvments. Making the first card stay flipped over and then the second card switching back to unflipped if 
+incorrect would without doubt make a better UX. Also adding animations for the flipping and improving the overall design of the app.
