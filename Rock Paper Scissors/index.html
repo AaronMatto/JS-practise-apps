@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper, Scissors!</title>
+<meta charset="UTF-8">
+<meta name="author" content="Aaron">
+<meta name="description" content="rock paper scissors game">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="title-container"> <span id="game-title">ROCK ✊🏾.  PAPER ✋🏾.  SCISSORS ✌🏾. </span></div>
+	<div class="app-container">
+		<div id="scoreboard">
+			<span id="user-tag" class="game-tag">User</span><span id="computer-tag" class="game-tag">CPU</span>
+			<div class="game-score">
+				<span id="user-score">0</span><span id="colon"> : </span><span id="comp-score">0</span>
+			</div>
+			<div id="result-message">
+				...
+			</div>	
+		</div>
+		<div class="user-choices-div">
+			<div id="rock-div" class="user-choice rock"><img src="icons8-rock-96.png" class="icons"/></div>
+			<div id="paper-div" class="user-choice paper"><img src="icons8-stack-of-paper-96.png"></div>
+			<div id="scissors-div" class="user-choice scissors"><img src="icons8-cut-80.png"></div> 
+		</div>
+		<div id="game-message">Make Your Move.</div>
+	</div> 
+</body>
+<script src="app.js" charset="UTF-8"> </script>	
+</html>
