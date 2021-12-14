@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Aaron">
+<meta name="description" content="expense tracker app budget money cost tracking">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Ubuntu+Condensed&family=Volkhov&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<title>Expense Tracker 💰</title>
+</head>
+
+<body>
+	<h1 id="title">Expense Tracker</h1>
+	<div class="budget-div">
+		<form id="user-budget-form"> 
+			<input type="text" name="user-budget-amount" id="user-budget-amount">
+			<input type="submit" id="user-budget-submit" action="#">
+		</form>
+		<span id="budget-span">Budget Total: £ </span>
+		<span id="budget-remaining"> Remaining Balance: £ </span>
+		<button id="budget-delete">Delete</button>
+	</div>
+
+	<div class="table-div">
+		<table class="table">
+			<thead>
+				<caption id="table-title"><h2>Expenses</h2></caption>
+				<tr class="row-titles">
+					<th> Date </th>
+					<th> Name </th>
+					<th> Cost(£) </th>
+					<th> Paid? </th>
+					<th> Delete </th>
+					<th> Total Costs Paid </th>
+				</tr>
+			</thead>
+			<tbody id="expense-tbody"></tbody>
+		</table>
+	</div>
+
+	<div class="user-table-div">
+		<form id="user-table-form">
+			<table class="user-table" id="user-table-id">
+				<thead>
+					<caption id="user-table-title"><h2>Add an Expense</h2></caption>
+					<tr class="user-row-titles">
+						<th> Date </th>
+						<th> Name </th>
+						<th> Cost </th>
+					</tr>
+				</thead>
+				<tbody class="user-tbody">
+					<tr class="user-tbody-row-data">
+						<td><input type="text" name="user-data" placeholder=" Add a date..." class="user-input" id="user-date"></td>
+						<td><input type="text" name="user-data" placeholder=" Add a name..." class="user-input" id="user-expense"></td>
+						<td><input type="text" name="user-data" placeholder=" Add a cost..." class="user-input" id="user-cost"></td>
+					</tr>
+				</tbody>
+			</table>
+		<input type="submit" name="user-table-submit" id="user-table-submit" value="Add">
+		</form> 
+	</div>
+</body>
+<script src="app.js" charset="UTF-8"></script>
+</html>

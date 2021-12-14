@@ -1,0 +1,207 @@
+body {
+	background: rgb(250, 240, 220), rgba(0,0,0,0.2));
+}
+
+#title {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Mukta', sans-serif;
+	font-size: 60px;
+	width: 450px;
+}
+
+#money {
+	font-size: 50px;
+	display: inline;
+	position: relative;
+	top: 5px;
+}
+
+.budget-div {
+	padding-bottom: 10px;
+	margin-top: 30px;
+	height: 90px;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+}
+
+	#user-budget-amount {
+		display: inline;
+		width: 120px;
+		height: 23px;
+		position: relative;
+		bottom: 0px;
+		padding-left: 8px;
+		border: 2px solid black;
+	}
+
+	#user-budget-submit {
+		background-color: rgb(44, 191, 64);
+		border: 2px solid black;
+		position: relative;
+		right: 5px;
+		height: 29.6px;
+		bottom: 0px;
+		font-family: 'Volkhov', serif;
+	}
+
+	#user-budget-submit:hover {
+		background-color: rgba(29, 161, 46);
+		cursor: pointer;
+	}
+
+	#budget-span {
+		position: absolute;
+		right: 760px;
+		bottom: 2px;
+		width: 370px;
+		height: 49px;
+		padding:0;
+		margin:0;
+		font-size: 40px;
+	}
+
+
+	#budget-delete{
+		position: relative;
+		right: 07px;
+		bottom: -8px;
+		font-size: 27px;
+		background-color: rgb(44, 191, 64);
+		width: 120px;
+		height: 45px;
+		text-align: center;
+		border-radius: 2%
+		font-family: 'Istok Web', sans-serif;
+		border: 3px solid black;
+	}
+
+	#budget-delete:hover{
+		cursor: pointer;
+		background-color: rgba(195, 228, 235, 0.5);
+	}
+
+	#budget-remaining{
+		position: absolute;
+		font-size: 40px;
+		right: 270px;
+		bottom: 4px;
+	}
+
+.table-div {
+	font-family: 'Istok Web', sans-serif;
+	margin-top: 30px;
+	position: relative;
+	height: 400px;
+	overflow: auto;
+}
+
+	.table{
+		position: absolute;
+		width: 100%;
+		top:15%;
+		border-collapse: collapse;
+	}
+
+	#table-title{
+		position: absolute;
+		left: 44%;
+		top: -70px;
+		font-size: 20px;
+	}
+
+	.table-delete:hover{
+		cursor: pointer;
+	}
+
+	.row-titles>th{
+		border: 2px solid ;
+		margin: 0;
+		height: 50px;
+		margin-top: 0;
+		font-size: 20px;
+	}
+
+	.tbody-row-data>td{
+		text-align: center;
+		border: 2px solid black;
+		height: 35px;
+	}
+
+
+.user-table-div {
+	margin-top: 30px;
+	position: relative;
+	height: 200px;
+	font-family: 'Istok Web', sans-serif;
+}
+
+	.user-table{
+		position: absolute;
+		width: 90%;
+		top: 30%;
+		border-collapse: collapse;
+		left: 1%;
+	}
+
+	#user-table-title{
+		position: absolute;
+		top: -70px;
+		font-size: 20px;
+		color: rgb(44, 191, 64);
+	}
+
+	.user-row-titles>th{
+		border: 2px solid black;
+		margin: 0;
+		height: 50px;
+		font-size: 20px;
+	}
+
+	.user-tbody-row-data>td{
+		text-align: center;
+		height: 35px;
+	}
+
+	#user-table-submit{
+		position: absolute;
+		right: 20px;
+		bottom: 40px;
+		width: 80px;
+		height: 32px;
+		font-size: 20px;
+		font-family: 'Istok Web', sans-serif;
+		border: 2px solid black;
+		background-color: rgb(44, 191, 64);
+	}
+
+	#user-table-submit:hover{
+		cursor: pointer;
+		background-color: rgba(0, 219, 157, 0.9);
+	}
+
+	.user-input{
+		margin-top: 10px;
+		width: 60%;
+		height: 25px;
+		font-family: 'Istok Web', sans-serif;
+		font-size: 20px;
+		position: relative;
+		left: 5px;
+		padding: 3px;
+	}
+
+
+
+
+
+
+
+
+
+
+
