@@ -1,0 +1,5 @@
+This app was the much more difficult to make compared to the previous three as I tried to implement the functionality of checkboxes so that the remaining
+balances adjusted correctly. Originally, I tried to make the "total costs paid" column have a cell on each row such that it would adjust in accordance with
+the row it belonged to. However, this iteration proved to be quite troublesome with my current knowledge so I settled for a single cell that adjusted correctly.
+Additional improvement would be improved design, only allowing the date box to accept dates and also to change the remaining balance from "undefined" when a cost
+exceeds its value.
