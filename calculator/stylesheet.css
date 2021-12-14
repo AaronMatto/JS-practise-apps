@@ -1,0 +1,101 @@
+body {
+	background: rgb(66, 135, 245);
+}
+
+h1 {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+.content-wrap {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.calculator-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: repeat(8, auto);
+	background: black;
+	width: 30%;
+	margin: auto;
+	height: 500px;
+	border-radius: 3%;
+	border: 10px solid black;
+	padding: 0;
+}
+
+.calculator-item {
+	border: 2px solid rgb(133, 133, 133);
+	text-align: center;
+	font-size: 30px;
+	padding-top: 17px;
+	border-radius: 3%;
+	
+}
+
+.calculator-item:hover {
+	cursor: pointer;
+}
+
+.number {
+	color: rgb(245, 183, 213);
+}
+
+#screen {
+	border: 2px solid;
+	grid-area: 1/1/4/5;
+	color: white;
+	text-align: right;
+	font-size: 45px;
+	padding-right: 15px;
+	cursor: default;
+	min-width: 0;
+	word-wrap: break-word;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+}
+
+#zero {
+	grid-area: 8/1/9/3;
+}
+
+#clear {
+	grid-area: 4/1/5/3;
+	color: rgb(5, 255, 238);
+	margin-top: 0px;
+}
+
+#sign{
+	color: rgb(255, 119, 0);
+	margin-top: 0px;
+}
+
+#divide {
+	color: rgb(9, 227, 13);
+	margin-top: 0px;
+}
+
+#times {
+	color: rgb(252, 0, 88);
+}
+
+#minus {
+	color: rgb(251, 255, 10);
+}
+
+#plus {
+	color: rgb(0, 145, 255);
+}
+
+#equals {
+	color: rgb(255, 5, 251);
+}
+
+#decimal {
+	color: white;
+}
