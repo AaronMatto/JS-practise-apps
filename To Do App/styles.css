@@ -1,0 +1,160 @@
+.app-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	height: 600px;
+	width: 1100px;
+	background-color: rgb(250, 240, 240);
+	border: 3px solid black;
+}
+
+#titlebox {
+	position: absolute;
+	width: 100%;
+	border-bottom: 3px solid black;
+	text-align: center;
+	background-color: rgba(0, 145, 255, 1); 
+	height: 27%;
+}
+
+#Title {
+	position: relative;
+	right: 20px;
+	font-family: 'Arvo', serif;
+	font-size: 50px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+#subtitle {
+	position: relative;
+	bottom: 60px;
+	right: 5px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+}
+
+#task-list {
+	position: absolute;
+	top: 28%;
+	width: 99%;
+	font-family: 'Poppins', sans-serif;
+	max-height: 300px;
+	overflow: auto;
+}
+
+#task-list-ul {
+	list-style-type: disc;
+}
+
+#searchbar {
+	position: absolute;
+	bottom: 10px;
+	right: 41%;
+	height: 22px;
+	width: 200px;
+}
+
+.bottom-panel{
+	border-top: 3px solid black;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	height: 20%;
+	font-family: 'Poppins', sans-serif;
+	background-color: rgba(0, 145, 255, 0.3);
+}
+
+#hide-box-div{
+	position: absolute;
+	bottom: 35%;
+	right: 10%;
+	font-size: 25px;
+}
+
+#hide-checkbox{
+	height: 20px;
+	width: 20px;
+	display: inline;
+	position: relative;
+	top: 2px;
+}
+
+#add-task-div{
+	display: inline-block;
+	position: absolute;
+	top: 34%;
+	left: 5%;
+}
+
+#add-task-box {
+	height: 30px;
+	width: 390px;
+	font-size: 18px;
+	border: 3px solid black;
+}
+
+#add-task-btn {
+	height: 38px;
+	width: 90px;
+	font-size: 18px;
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+	color: rgba(255, 240, 255, 1);
+	position: relative;
+	border: 3px solid black;
+	border-left: none;
+	top: 1px;
+}
+
+#add-task-btn:hover{
+	cursor: pointer;
+}
+
+li {
+	margin: 20px;
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+}
+
+li:hover{
+	color: orange;
+}
+
+.task-name{
+	color: black;
+}
+
+.delete-button {
+	position: absolute;
+	border: solid 2px black;
+	right: 40px;
+	background-color: black;
+	color: white;
+	height: 30px;
+	width: 80px;
+	font-family:  'Poppins', sans-serif;
+	text-align: center;
+	border-radius: 4%;
+	font-size: 20px;
+}
+
+.delete-button:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
